@@ -14,19 +14,24 @@
 
 // Part 2: Prime Time
 
-const findNextPrime = (n) => {
-    if (num <= 1) return false
-    for (let i = 2; i <= Math.sqrt(num); i++) {
-        if (num % i === 0) return false
-    }
-    return true
-}
+// const findNextPrime = (n) => {
+//     if (num <= 1) return false
+//     for (let i = 2; i <= Math.sqrt(num); i++) {
+//         if (num % i === 0) return false
+//     }
+//     return true
+// };
 
-let nextPrime = n;
-while (!isPrime(nextPrime)) {
-    nextPrime++;
+// let nextPrime = n;
+// while (!isPrime(nextPrime)) {
+//     nextPrime++;
     
-}
-console.log(nextPrime);
+// }
+// console.log(nextPrime);
 
-findNextPrime(4);
+// findNextPrime(4);
+
+
+
+// Part 3: Feeling Loopy
+
